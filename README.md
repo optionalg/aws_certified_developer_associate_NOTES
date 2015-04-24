@@ -1,6 +1,8 @@
 # Notes for passing AWS Certified Developer Associate exam
 **I wrote these notes while preparing for the AWS certified developer associate exam. I took a printout of these and revised on the way to the exam center**
+
 **This helped me pass the exam with an overall Score of 85%**
+
 **Feel free to contribute or use these notes**
 
 ##AWS regions
