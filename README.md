@@ -19,11 +19,11 @@
 - stack is set of resources that are created and managed as a single unit when cloud formation instantiated a template
 - the AWS resourced which are a part of the stack can be individually managed
 - the template json has 5 types of elements
-o parameters optional
-o outputs optional
-o list of data tables optional
-o list of resources
-o template file format version number
+* parameters optional
+* outputs optional
+* list of data tables optional
+* list of resources
+* template file format version number
 
 - Sections: Resources, Parameters, Outputs, AWSTemplateFormatVersion, Description, Mappings
 - Resources section in the template is the only thing required for it to work
