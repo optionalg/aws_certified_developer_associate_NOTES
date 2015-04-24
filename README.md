@@ -1,17 +1,19 @@
 # aws_certified_developer_associate_NOTES
-AWS regions
+##AWS regions
 - Total 11 regions, 9 below + gov cloud + beijing
-|ap-northeast-1|Asia|Pacific (Tokyo)
-|ap-southeast-1|Asia|Pacific (Singapore)
-|ap-southeast-2|Asia|Pacific (Sydney)
-|eu-central-1|EU (Frankfurt)
-|eu-west-1|EU (Ireland)
-|sa-east-1|South America (Sao Paulo)
-|us-east-1|US East (N. Virginia)
-|us-west-1|US West (N. California)
-|us-west-2|US West (Oregon)
+|Region name|Location|
+|-----------|--------|
+|ap-northeast-1|Asia Pacific (Tokyo)|
+|ap-southeast-1|Asia Pacific (Singapore)|
+|ap-southeast-2|Asia Pacific (Sydney)|
+|eu-central-1|EU (Frankfurt)|
+|eu-west-1|EU (Ireland)|
+|sa-east-1|South America (Sao Paulo)|
+|us-east-1|US East (N. Virginia)|
+|us-west-1|US West (N. California)|
+|us-west-2|US West (Oregon)|
 - 
-Cloud Formation
+##Cloud Formation
 - Allows us to deploy resources through a json template
 - the template can build a complete stack
 - stack is set of resources that are created and managed as a single unit when cloud formation instantiated a template
@@ -41,7 +43,7 @@ o Each cloudformation account is limited to 20 stacks. Can be increased by conta
 
 - cloud formation access point url https://coundformation.<region>.amazonaws.com
 
-DynamoDB
+##DynamoDB
 - NoSQL fully managed database service
 - Dynamo db stores 3 geographically distinct replicas of each table 
 - tables can have any amount of data, you need to manage throughput 
@@ -155,7 +157,7 @@ o UpdateItem
 o ProjectionExpressions can be defined to determine which attributes are returned form a table
 
 
-SNS Simple Notification Service
+##SNS Simple Notification Service
 - sends notifications from the cloud
 - fast and fully managed push messaging system.
 - sends out time critical notifications
@@ -220,7 +222,7 @@ o rds notification of change
 - SNS serive acceepoint URL http://sns.<region>.amazonaws.com
 
 
-SQS Simple Queue Service
+##SQS Simple Queue Service
 - Loosely decouples the resources
 - it is a scalable messaging system
 - Queues are used to store messages that travel between different components of architecture
@@ -267,7 +269,7 @@ SQS Simple Queue Service
 - SQS service access point URL : http://sqs.<region>.amazonaws.com
 
 
-Simple Work Flow Services
+##Simple Work Flow Services
 - Each step is a task, similar to SQS
 - Task coordination and state management service
 - A workflow can consist of human events, unlike SQS
@@ -303,7 +305,7 @@ Simple Work Flow Services
 
 
 
-IAM
+##IAM
 - Roles
 - is a iam entity which defines set of permissions for making aws service requests
 - Roles allow someone or a set of code or instance to assume certain permissions- More secure than using api codes
@@ -341,7 +343,7 @@ IAM
 
 
 
-EC2
+##EC2
 - AMI can be copied, and they can also be shared across multiple AWS accounts
 - AMI can also be copied from one availability region to another
 - EBS backed or instance storage. EBS can be attached or detached to an instance- Instance storage is ephemeral, data is lost when instance is terminated
@@ -388,7 +390,7 @@ EC2
 
 
 
-Virtual Private Cloud - VPC
+##Virtual Private Cloud - VPC
 - creates a virtual network. It resembles a private datacenter or a private corporate network
 - If you delete default VPC, the only way you can get it back is by contacting AWS
 - default vpc is created upon instance creation. Now by default all ec2 is launched under a vpc.dfault vpc is connected to internet by default. It replaces ec2 classic functionality
@@ -479,7 +481,7 @@ Virtual Private Cloud - VPC
 
 
 
-Simple Storage Service S3
+##Simple Storage Service S3
 - An AWS account can have upto 100 S3 buckets
 - No limits on the number of objects stored within a bucket
 - any kind of data in any format can be stored in s3
