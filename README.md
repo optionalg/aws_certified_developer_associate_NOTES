@@ -48,7 +48,7 @@
   * you can have 60 parameters and 60 outputs in a template
   * Each cloudformation account is limited to 20 stacks. Can be increased by contacting AWS via form
 
-- cloud formation access point url https://coundformation.<region>.amazonaws.com
+- cloud formation access point url https://cloudformation.<region>.amazonaws.com
 
 ##DynamoDB
 - NoSQL fully managed database service
